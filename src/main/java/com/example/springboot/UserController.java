@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.springboot;
 
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.web.bind.annotation.GetMapping;

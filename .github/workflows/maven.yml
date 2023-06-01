@@ -35,6 +35,8 @@ jobs:
       with:
         image: sudheer2020/springboot-image
         tags: latest
+        context: .
+        push: true
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
